@@ -25,7 +25,7 @@ report_errors=()
 
 usage() {
     cat <<'EOF'
-Usage: ./run2.sh [--dry-run] [--help]
+Usage: ./run.sh [--dry-run] [--help]
 
 Modes:
   --dry-run  Print commands only
