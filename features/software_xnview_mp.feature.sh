@@ -5,5 +5,7 @@ FEATURE_DESC="Install XnView MP via flatpak"
 FEATURE_DEFAULT="true"
 
 run_feature() {
-    flatpak install -y flathub com.xnview.XnViewMP
+    local remote="flathub"
+    local application="com.xnview.XnViewMP"
+    sudo flatpak install -y "$remote" "$application"
 }

@@ -5,5 +5,7 @@ FEATURE_DESC="Install OnlyOffice package via flatpak"
 FEATURE_DEFAULT="false"
 
 run_feature() {
-    sudo flatpak install -y org.onlyoffice.desktopeditors
+    local remote="flathub"
+    local application="org.onlyoffice.desktopeditors"
+    sudo flatpak install -y "$remote" "$application"
 }
