@@ -2,7 +2,7 @@ FEATURE_ID="settings_extensions_desktop-cube"
 FEATURE_NAME="Extensions"
 FEATURE_CATEGORY="Settings"
 FEATURE_DESC="Install Desktop Cube extension (DesktopCube@yare)"
-FEATURE_DEFAULT="true"
+FEATURE_DEFAULT="false"
 
 run_feature() {
     local extensions_dir="$HOME/.local/share/cinnamon/extensions"
