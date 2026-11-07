@@ -5,5 +5,6 @@ FEATURE_DESC="Increase draggable border width"
 FEATURE_DEFAULT="true"
 
 run_feature() {
-    dconf write /org/cinnamon/muffin/draggable-border-width 32
+    local border_width=24
+    dconf write /org/cinnamon/muffin/draggable-border-width $border_width
 }
