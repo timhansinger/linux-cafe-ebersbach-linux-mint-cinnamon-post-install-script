@@ -99,4 +99,13 @@
         <scolor>#000000</scolor>
         <artist>Orange Waves B (10)</artist>
     </wallpaper>
+    <wallpaper deleted="false">
+        <name>Mitmacherei</name>
+        <filename>/usr/share/backgrounds/mitmacherei/mitmacherei11.jpg</filename>
+        <options>zoom</options>
+        <shade_type>solid</shade_type>
+        <pcolor>#000000</pcolor>
+        <scolor>#000000</scolor>
+        <artist>Pinguin (11)</artist>
+    </wallpaper>
 </wallpapers>
