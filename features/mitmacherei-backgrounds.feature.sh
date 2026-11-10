@@ -11,6 +11,6 @@ run_feature() {
     sudo cp -f $feature_dir/mitmacherei-backgrounds/mitmacherei.xml /usr/share/cinnamon-background-properties/
 
     # Set default wallpaper
-    local default_wallpaper="file:///usr/share/backgrounds/mitmacherei/mitmacherei0.jpg"
+    local default_wallpaper="file:///usr/share/backgrounds/mitmacherei/mitmacherei11.jpg"
     dconf write /org/cinnamon/desktop/background/picture-uri "'$default_wallpaper'"
 }
